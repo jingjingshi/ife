@@ -1,0 +1,36 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#mian{
+	width: 400px;
+	height: 200px;
+	background: #ccc;
+    margin: 0 auto;
+    position: relative;
+    position: absolute;
+    /*第一种方法；top: 50%;
+    left: 50%;*/
+  /*  transform: translate(-50%,-50%);*/
+   /*第二种方法*/ top: 50%;
+	margin-top: -100px;
+	left: 50%;
+	margin-left: -200px;
+
+}
+#top{
+	width: 50px;
+	height: 50px;
+	background: #fc0;
+	border-radius: 0 0 50px 0;
+
+}
+#bottom{
+	width: 50px;
+	height: 50px;
+	background: #fc0;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	border-radius: 50px 0 0 0;
+}

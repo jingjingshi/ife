@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  padding: 20px;
+  font-size: 15px;
+}
+
+#wrap{
+  width: 100%;
+  background: #eee;
+  border:1px solid #999;
+  overflow: hidden;
+}
+#left{
+ border:1px solid #999;
+ width: 160px;
+ margin: 20px;
+ background: white;
+ float: left;
+ position: relative;
+}
+#left p{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+#main{
+  padding: 20px;
+  text-indent: 2em;
+ border:1px solid #999;
+ background: white;
+ overflow: hidden;
+ margin: 20px 200px 160px;
+}
+#right{
+  margin: 20px;
+ border:1px solid #999;
+ width: 120px;
+ background: white;
+ float: right;
+}
+li{
+  list-style: none;
+}
+img{
+  display: block;
+  margin: 20px;
+}
